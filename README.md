@@ -48,8 +48,10 @@ Then summarize your observations in general. Make sure you covered these cases:
 4. A and B are both 4-bit and negative, what is the MSB of 5-bit output S?
 5. A and B have different signs in 4-bits, (one positive and the other negative). Is the
 answer valid in 5-bits signed radix? What is the MSB of 5-bit output S?
+
 3. FPGA
-1. Use User Constraint File (UCF) to connect your inputs to switches on the board, and your
+
+5. Use User Constraint File (UCF) to connect your inputs to switches on the board, and your
 outputs to LEDs on the board. You should use the 4 switches for each 4-bit input (A and
 B) and one switch for input M. For output (S), you should use the 5 rightmost LEDs. For
 both input and output, the rightmost switch or LED should show the least significant bit.
