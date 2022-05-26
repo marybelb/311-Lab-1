@@ -52,7 +52,10 @@ answer valid in 5-bits signed radix? What is the MSB of 5-bit output S?
 Next, program the FPGA:
 
 3. FPGA
+
+
 Instructions:
+
 1. Use User Constraint File (UCF) to connect your inputs to switches on the board, and your
 outputs to LEDs on the board. You should use the 4 switches for each 4-bit input (A and
 B) and one switch for input M. For output (S), you should use the 5 rightmost LEDs. For
