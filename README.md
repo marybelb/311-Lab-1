@@ -60,17 +60,23 @@ Deliverables
 your Verilog code, and top module simulation of both parts to TA. Your design has to
 abide by the following requirements. Failure to follow the instructions will result in a
 grade reduction.
+
 a. For each testbench, identify one test case where overflow happens
+
 b. For each testbench, after creating the overflow test case in (a), create a
 complete test suite that covers all the possible combinations of input values
 to prove your logic is right.
+
 c. Be hierarchical (consisting of other sub modules), use separate files for each
 module. (only for Task 1)
+
 d. Write a testbench for each module. Demonstrate that both the half adder, the
 full adder work. Your 4-bit adder will fail if the submodules do not work
 properly. It is a good engineering practice to test submodules before going to
 the next level.
+
 e. Upload your verilog codes to Blackboard in a compressed file. Note that you
+
 should upload only the verilog codes (*.v), not the whole project.
 2. Demonstrate your adder/subtractor to TA on the FPGA board. Make sure that your design
 works correctly for all different scenarios.
