@@ -51,7 +51,7 @@ answer valid in 5-bits signed radix? What is the MSB of 5-bit output S?
 
 3. FPGA
 
-5. Use User Constraint File (UCF) to connect your inputs to switches on the board, and your
+1. Use User Constraint File (UCF) to connect your inputs to switches on the board, and your
 outputs to LEDs on the board. You should use the 4 switches for each 4-bit input (A and
 B) and one switch for input M. For output (S), you should use the 5 rightmost LEDs. For
 both input and output, the rightmost switch or LED should show the least significant bit.
@@ -79,8 +79,7 @@ full adder work. Your 4-bit adder will fail if the submodules do not work
 properly. It is a good engineering practice to test submodules before going to
 the next level.
 
-e. Upload your verilog codes to Blackboard in a compressed file. Note that you
+e. Upload your verilog codes to Blackboard in a compressed file. Note that you should upload only the verilog codes (*.v), not the whole project.
 
-should upload only the verilog codes (*.v), not the whole project.
 2. Demonstrate your adder/subtractor to TA on the FPGA board. Make sure that your design
 works correctly for all different scenarios.
