@@ -1,5 +1,6 @@
 # 311-Lab-1
 1. Structural Verilog
+
 Write the HDL gate level (structural) hierarchical description for 4-bit binary adder-subtractor.
 IO specifications: You have 4-bit inputs A and B (signed radix), and 1-bit input M as control bit.
 You need to output 4-bit S as results, 1-bit C for carry (or borrow) out, 1-bit V for overflow.
@@ -17,6 +18,7 @@ complementor proceeding its input to the adder bits (XOR primitive).
 <img width="626" alt="Screen Shot 2022-05-26 at 7 46 54 PM" src="https://user-images.githubusercontent.com/91172956/170601586-5d834512-f04a-4920-bcbf-51e8279be0fa.png">
 
 2. Behavioral Verilog
+
 This part is intended to show you a behavioral approach to the structural adder/subtractor you
 designed in Task 1. Similar to the previous approach, depending on M, take the 2’s complement
 of B (behaviorally) and add it with A or just add A+B if subtraction is not dictated by M.
